@@ -15,8 +15,8 @@ console.log(userId);
 
        <td>${data.title}</td>
               <td>${data.description}</td>
-              <td><img src="${data.images}" width="30%" alt="this is image"/></td>
-
+              <td>
+  ${data.images.map(img => `<img src="${img}" width="30%" alt="product image"/>`).join('')}</td>
     </tr>
   
     `
