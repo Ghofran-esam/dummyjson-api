@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+    .container{
+   
+    width: calc(100% - 80px);
+    margin:auto;
+
+}
+
+table{
+    width: 100%;
+    background-color: #fff;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 30px;
+}
+thead{
+    background-color: #0044d4d4;
+}
+ td {
+    border-bottom: 1px solid #ddd;
+    padding:8px 16px;
+}
+th {
+    border-bottom: 1px solid #ddd;
+    padding:8px 16px;
+}
+
+ tbody tr:hover {
+    background-color:#f1f1f1 ;
+}
+
