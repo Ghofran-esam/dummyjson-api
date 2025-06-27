@@ -12,11 +12,10 @@ console.log(userId);
  const {data} = await axios.get(`https://dummyjson.com/products/${userId}`);
  html="";
  html+=`<tr>
-
        <td>${data.title}</td>
               <td>${data.description}</td>
               <td>
-  ${data.images.map(img => `<img src="${img}" width="30%" alt="product image"/>`).join('')}</td>
+  <img src="${data.thumbnail}" </td>
     </tr>
   
     `
